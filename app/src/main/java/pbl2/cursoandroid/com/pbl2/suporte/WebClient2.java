@@ -22,7 +22,7 @@ import pbl2.cursoandroid.com.pbl2.modelo.Aluno;
 import static com.android.volley.Request.Method.GET;
 
 /**
- * Created by rommel on 12/12/17.
+ * Created by keciosantos on 12/12/17.
  */
 
 public class WebClient2 {
