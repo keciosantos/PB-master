@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pbl2.cursoandroid.com.pbl2.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtPBL"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgTurmaId"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/turmaicon" android:contentDescription="@string/Turama" />
+
+    <ImageView
+        android:id="@+id/imgAlunosId"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignTop="@+id/imgTurmaId"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_toEndOf="@+id/imgTurmaId"
+        android:layout_toRightOf="@+id/imgTurmaId"
+        android:contentDescription="@string/Alunoss"
+        app:srcCompat="@drawable/alunosicon" />
+
+    <TextView
+        android:id="@+id/txtTurmas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgTurmaId"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_toLeftOf="@+id/imgAlunosId"
+        android:layout_toStartOf="@+id/imgAlunosId"
+        android:text="@string/txtTurmas"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtAlunos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_below="@+id/imgAlunosId"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:text="@string/txtalunos"
+        android:textSize="24sp" />
+
+</RelativeLayout>

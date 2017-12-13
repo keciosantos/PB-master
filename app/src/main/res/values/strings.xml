@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PBL2</string>
+    <string name="cadastro_de_alunos">Cadastro de Alunos</string>
+    <string name="nome">Nome:</string>
+    <string name="ano">Ano:</string>
+    <string name="semestre">Semestre:</string>
+    <string name="participa_o">Participação:</string>
+    <string name="presen_a">Presença:</string>
+    <string name="presen_a2">Comprometimento:</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="txtPBL">PBL(Problem-Based Learning)</string>
+    <string name="turmaa">TODO</string>
+    <string name="Turama" />
+    <string name="Alunoss">Alunos</string>
+    <string name="txtTurmas">Turmas</string>
+    <string name="txtalunos">Alunos</string>
+    <string name="add">TODOadd</string>
+    <string name="Addalunos">Adicionar alunos</string>
+    <string name="lupa">TODO</string>
+    <string name="consulta">Buscar Aluno</string>
+</resources>
